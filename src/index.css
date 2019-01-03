@@ -1,0 +1,17 @@
+body {
+
+  background-color: #eee;
+
+}
+
+.sidenav__button { background-color: cadetblue;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0px rgba(0,0,0,0);
+  padding: 0 1rem;}
+
+.linha__navbar {
+
+  
+  background-color: cadetblue;
+}
+
+.slider .slides li img { background-size: contain; }
