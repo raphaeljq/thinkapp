@@ -10,7 +10,7 @@ const Header = () => (
     <Row className="linha__navbar z-depth-1">
             <Col>
             <SideNav
-                trigger={<Button className="sidenav__button"><Icon small>menu</Icon></Button>}
+                trigger={<Button className="sidenav__button" ><Icon small>menu</Icon></Button>}
                 options={{ closeOnClick: true }}
                 >
                 <SideNavItem userView

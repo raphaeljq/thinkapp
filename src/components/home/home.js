@@ -6,9 +6,9 @@ import { Row, Col, Slider,Slide, Collapsible, CollapsibleItem ,Carousel} from 'r
 const Home = () => (
   <div>
   <Row >
-    
-    <Col m={12} s={12} className="home__linha">
-    <Slider options={{ height: "100px" }}>
+    <Col l={2}></Col>
+    <Col m={12} s={12} l={8} className="home__linha">
+    <Slider>
       <Slide 
         src="https://instagram.fmcp2-1.fna.fbcdn.net/vp/338b9e29aeefd7dd07f793777a78b90d/5CB4C03F/t51.2885-15/sh0.08/e35/s640x640/46705555_279402092779777_5239452596165776602_n.jpg?_nc_ht=instagram.fmcp2-1.fna.fbcdn.net"
         
@@ -35,6 +35,7 @@ const Home = () => (
     
     </Col>
   </Row>
+ 
   <Row>
     <Col m={12} s={12}>
       <Collapsible popout defaultActiveKey={1}>
