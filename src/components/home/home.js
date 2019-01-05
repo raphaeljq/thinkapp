@@ -40,10 +40,10 @@ const Home = () => (
       <Col s={12} m={8} l={6} className="s2 l3">
         <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
            <Row className="valign-wrapper">
-             <Col s={2}>
+             <Col s={4}>
                 <img src="https://react-materialize.github.io/img/yuna.jpg" alt="" class="circle responsive-img"/> 
              </Col>
-             <Col s={10}>
+             <Col s={8}>
              <span class="black-text">
                 This is a square image. Add the "circle" class to it to make it appear circular.
               </span>
@@ -56,10 +56,10 @@ const Home = () => (
       <Col s={12} m={8} l={6} className="s2 l3">
         <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
            <Row className="valign-wrapper">
-             <Col s={2}>
+             <Col s={4}>
                 <img src="https://react-materialize.github.io/img/yuna.jpg" alt="" class="circle responsive-img"/> 
              </Col>
-             <Col s={10}>
+             <Col s={8}>
              <span class="black-text">
                 This is a square image. Add the "circle" class to it to make it appear circular.
               </span>
