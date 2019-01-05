@@ -1,7 +1,7 @@
 // Importando o React
 import React from "react";
 // Importando os components necessários da lib react-materialize
-import { Row, Col, Slider,Slide, Collapsible, CollapsibleItem ,Carousel} from 'react-materialize';
+import { Row, Col, Slider,Slide, Collapsible, CollapsibleItem ,Carousel, Card, CardTitle} from 'react-materialize';
 
 const Home = () => (
   <div>
@@ -35,22 +35,57 @@ const Home = () => (
     
     </Col>
   </Row>
- 
+
   <Row>
-    <Col m={12} s={12}>
-      <Collapsible popout defaultActiveKey={1}>
-      <CollapsibleItem header='First' icon='filter_drama'>
-        Lorem ipsum dolor sit amet.
-      </CollapsibleItem>
-      <CollapsibleItem header='Second' icon='place'>
-        Lorem ipsum dolor sit amet.
-      </CollapsibleItem>
-      <CollapsibleItem header='Third' icon='whatshot'>
-        Lorem ipsum dolor sit amet.
-      </CollapsibleItem>
-    </Collapsible>  
-    </Col>
-  </Row>  
+      <Col s={12} m={8} l={6} className="s2 l3">
+        <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
+           <Row className="valign-wrapper">
+             <Col s={2}>
+                <img src="https://react-materialize.github.io/img/yuna.jpg" alt="" class="circle responsive-img"/> 
+             </Col>
+             <Col s={10}>
+             <span class="black-text">
+                This is a square image. Add the "circle" class to it to make it appear circular.
+              </span>
+             </Col> 
+            </Row>    
+        </Card>
+      </Col>
+  </Row>    
+  <Row>
+      <Col s={12} m={8} l={6} className="s2 l3">
+        <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
+           <Row className="valign-wrapper">
+             <Col s={2}>
+                <img src="https://react-materialize.github.io/img/yuna.jpg" alt="" class="circle responsive-img"/> 
+             </Col>
+             <Col s={10}>
+             <span class="black-text">
+                This is a square image. Add the "circle" class to it to make it appear circular.
+              </span>
+             </Col> 
+            </Row>    
+        </Card>
+      </Col>
+  </Row>    
+  <Row>
+      <Col s={12} m={8} l={6} className="s2 l3">
+        <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
+           <Row className="valign-wrapper">
+             <Col s={2}>
+                <img src="https://react-materialize.github.io/img/yuna.jpg" alt="" class="circle responsive-img"/> 
+             </Col>
+             <Col s={10}>
+             <span class="black-text">
+                This is a square image. Add the "circle" class to it to make it appear circular.
+              </span>
+             </Col> 
+            </Row>    
+        </Card>
+      </Col>
+  </Row>    
+  
+ 
 
   
   </div>
