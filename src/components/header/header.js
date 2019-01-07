@@ -10,7 +10,7 @@ const Header = () => (
   
   <div>
     
-    <Row className="linha__navbar z-depth-1">
+    <Row className="linha__navbar z-depth-1 sticky">
             <Col>
             <SideNav
                 trigger={<Button className="sidenav__button pulse" ><Icon small>menu</Icon></Button>}
