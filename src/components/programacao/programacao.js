@@ -78,11 +78,41 @@ const Programacao = () => (
      
       <Card horizontal actions={ 
           <Modal
-  header=' Truques e especialidades mágicas ocultas'
-  trigger={<a href='#'>Saiba mais</a>}>
-  <h3></h3>
-</Modal>
-      }> 
+            header=' Truques e especialidades mágicas ocultas'
+            trigger={<a href='#'>Saiba mais</a>}>
+            <Row>
+                <Col s={6} l={12}>
+                    <Row>
+                        <Col className="programacao__mes">Jan </Col>
+                        <Col className="programacao__dia"> 24</Col>
+                        <Col> 14h00-18h00 </Col>
+                    </Row>
+                    <Row>
+                        
+                        
+                    </Row>
+                    
+                </Col>
+                <Col>
+                    <h5 className="light-green accent-2">Descrição</h5>
+                    <p>Truques e especialidades mágicas ocultas</p>
+                </Col>
+                
+             </Row>
+             <Row className="valign-wrapper">
+             <h5 className="light-green accent-2">Facilitadora</h5>
+             <Col s={12}>
+                <img src={img3} alt="" class="circle responsive-img"/> 
+             </Col>
+             <Col s={12}>
+             <h5>Monick Quaresma</h5>
+             <span class="black-text">
+                Truques e especialidades mágicas ocultas
+              </span>
+             </Col> 
+            </Row>
+          </Modal>
+                }> 
            <Row className="valign-wrapper">
              <Col s={4}>
                 <img src={img3} alt="" class="circle responsive-img"/> 

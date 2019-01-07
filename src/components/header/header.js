@@ -19,9 +19,8 @@ const Header = () => (
                 <SideNavItem userView
                   user={{
                     background: 'https://react-materialize.github.io/img/office.jpg',
-                    image: 'https://react-materialize.github.io/img/yuna.jpg',
-                    name: 'John Doe',
-                    email: 'jdandturk@gmail.com'
+                    image: 'https://react-materialize.github.io/img/yuna.jpg'
+                  
                   }}
                 />
                 
