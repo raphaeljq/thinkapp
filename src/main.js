@@ -14,13 +14,13 @@ import { Switch, Route } from 'react-router-dom'
 
 const Main = () => (
   <main>
-    <Container>
+    
       
       <Switch>
         <Route exact path='/' component={Home}/>
         <Route path='/programacao' component={Programacao}/>
       </Switch>
-    </Container>
+    
   </main>  
 );
 
