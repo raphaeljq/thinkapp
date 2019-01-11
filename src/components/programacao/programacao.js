@@ -8,13 +8,6 @@ import img3 from '../../images/monick.jpg'
 const Programacao = () => (
 <div>
     <Row>
-        <Col s={6} l={12}>
-            <Row>
-                <span className="programacao__mes">Jan</span>
-                <span className="programacao__dia"> 24</span>
-            </Row>
-            
-        </Col>
         <Col>
             <h5>Rodada de workshops dia 01</h5>
             <h6>Na sala comunal da grinfindoria</h6>
