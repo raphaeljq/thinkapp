@@ -22,6 +22,7 @@ const NavMenu = () => (
                 
                 <NavLink to="/" icon="cloud">Home</NavLink>
                 <NavLink to="/programacao">Programação</NavLink>
+                <NavLink to="/comprar">Comprar</NavLink>
                 <SideNavItem divider />
                 <SideNavItem subheader>Subheader</SideNavItem>
                 <SideNavItem waves href='#!third'>Third Link With Waves</SideNavItem>
