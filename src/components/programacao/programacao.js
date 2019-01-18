@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Collection, CollectionItem, Modal, Row, Col, Card, Button, Collapsible, CollapsibleItem} from 'react-materialize'
+import { Row, Col, Card} from 'react-materialize'
 import img1 from '../../images/bia.jpg'
 import img2 from '../../images/nyl.jpg'
 import img3 from '../../images/monick.jpg'
@@ -8,13 +8,6 @@ import img3 from '../../images/monick.jpg'
 const Programacao = () => (
 <div>
     <Row>
-        <Col s={6} l={12}>
-            <Row>
-                <span className="programacao__mes">Jan</span>
-                <span className="programacao__dia"> 24</span>
-            </Row>
-            
-        </Col>
         <Col>
             <h5>Rodada de workshops dia 01</h5>
             <h6>Na sala comunal da grinfindoria</h6>
@@ -76,13 +69,7 @@ const Programacao = () => (
   <Row>
       <Col s={12} m={8} l={6} className="s2 l3">
      
-      <Card horizontal actions={ 
-          <Modal
-  header=' Truques e especialidades mágicas ocultas'
-  trigger={<a href='#'>Saiba mais</a>}>
-  <h3></h3>
-</Modal>
-      }> 
+      <Card  horizontal> 
            <Row className="valign-wrapper">
              <Col s={4}>
                 <img src={img3} alt="" class="circle responsive-img"/> 
