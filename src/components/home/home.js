@@ -37,7 +37,8 @@ const Home = () => (
   </Row>
 
   <Row>
-      <Col s={12} m={8} l={6} className="s2 l3">
+      <Col l={2}></Col>
+      <Col s={12} m={8} l={8} className="s2 l3">
         <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
            <Row className="valign-wrapper">
              <Col s={4}>
@@ -53,7 +54,8 @@ const Home = () => (
       </Col>
   </Row>    
   <Row>
-      <Col s={12} m={8} l={6} className="s2 l3">
+      <Col l={2}></Col>
+      <Col s={12} m={8} l={8} className="s2 l3">
         <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
            <Row className="valign-wrapper">
              <Col s={4}>
@@ -69,7 +71,8 @@ const Home = () => (
       </Col>
   </Row>    
   <Row>
-      <Col s={12} m={8} l={6} className="s2 l3">
+    <Col l={2}></Col>
+      <Col s={12} m={8} l={8} className="s2 l3">
         <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
            <Row className="valign-wrapper">
              <Col s={4}>
