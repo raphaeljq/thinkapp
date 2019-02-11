@@ -107,3 +107,4 @@ body {
   .programacao__dia,  .programacao__mes  {font-size: 1.5rem;}
   .programacao__mes { color:#dd2c00;border-right-color: #bdbdbd ; border-right-style: solid; border-right-width: 3px; }
   
+.header { font-weight: 300; color: #32aa24;}

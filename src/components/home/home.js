@@ -2,12 +2,15 @@
 import React from "react";
 // Importando os components necessários da lib react-materialize
 import { Row, Col, Slider,Slide, Collapsible, CollapsibleItem ,Carousel, Card, CardTitle} from 'react-materialize';
+import Container from "react-materialize/lib/Container";
 
 const Home = () => (
   <div>
-  <Row >
-    <Col l={2}></Col>
-    <Col m={12} s={12} l={8} className="home__linha">
+    
+  <Row>
+    <Container>
+    
+    <Col m={12} s={12} l={12} className="home__linha">
     <Slider>
       <Slide 
         src="https://instagram.fmcp2-1.fna.fbcdn.net/vp/338b9e29aeefd7dd07f793777a78b90d/5CB4C03F/t51.2885-15/sh0.08/e35/s640x640/46705555_279402092779777_5239452596165776602_n.jpg?_nc_ht=instagram.fmcp2-1.fna.fbcdn.net"
@@ -34,13 +37,19 @@ const Home = () => (
     </Slider>
     
     </Col>
+    </Container>
   </Row>
-
   <Row>
-      <Col s={12} m={8} l={6} className="s2 l3">
+      <Container>
+        <Col className='l2 m2' s={12} m={8} l={8}><h3 className="header">Gestão</h3></Col>
+      </Container>
+  </Row>
+  <Row>
+    <Container>
+      <Col s={12} m={12} l={12}>
         <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
            <Row className="valign-wrapper">
-             <Col s={4}>
+             <Col s={6  }>
                 <img src="https://react-materialize.github.io/img/yuna.jpg" alt="" class="circle responsive-img"/> 
              </Col>
              <Col s={8}>
@@ -51,12 +60,37 @@ const Home = () => (
             </Row>    
         </Card>
       </Col>
+    </Container>
   </Row>    
   <Row>
-      <Col s={12} m={8} l={6} className="s2 l3">
+    <Container>
+      <div className="col s12 m12 l12">
+            <div className="card-panel grey lighten-5 z-depth-1">
+              <div className="row valign-wrapper">
+                <div className="col s2">
+                  <img src="images/yuna.jpg" alt="" className="circle responsive-img"/> 
+                </div>
+                <div className="col s10">
+                  <span className="black-text">
+                    This is a square image. Add the "circle" class to it to make it appear circular.
+                  </span>
+                </div>
+              </div>
+            </div>
+        </div> 
+    </Container> 
+  </Row>
+  <Row>
+      <Container>
+        <Col className='l2 m2' s={12} m={8} l={8}><h3 className="header">Posicionamento</h3></Col>
+      </Container>
+  </Row>
+  <Row>
+    <Container>
+      <Col s={12} m={12} l={12}>
         <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
            <Row className="valign-wrapper">
-             <Col s={4}>
+             <Col s={6  }>
                 <img src="https://react-materialize.github.io/img/yuna.jpg" alt="" class="circle responsive-img"/> 
              </Col>
              <Col s={8}>
@@ -67,12 +101,19 @@ const Home = () => (
             </Row>    
         </Card>
       </Col>
+    </Container>
   </Row>    
   <Row>
-      <Col s={12} m={8} l={6} className="s2 l3">
+      <Container>
+        <Col className='l2 m2' s={12} m={8} l={8}><h3 className="header">Relacionamento</h3></Col>
+      </Container>
+  </Row>
+  <Row>
+    <Container>
+      <Col s={12} m={12} l={12}>
         <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
            <Row className="valign-wrapper">
-             <Col s={4}>
+             <Col s={6  }>
                 <img src="https://react-materialize.github.io/img/yuna.jpg" alt="" class="circle responsive-img"/> 
              </Col>
              <Col s={8}>
@@ -83,8 +124,8 @@ const Home = () => (
             </Row>    
         </Card>
       </Col>
+    </Container>
   </Row>    
-  
   
  
 
