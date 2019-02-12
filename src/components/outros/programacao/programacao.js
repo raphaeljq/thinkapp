@@ -14,7 +14,8 @@ const Programacao = () => (
         </Col>
     </Row>
     <Row>
-      <Col s={12} m={8} l={6} className="s2 l3">
+      <Col l={2}></Col>
+        <Col s={12} m={8} l={8} className="s2 l3">
         <Card horizontal> 
               <Row className="valign-wrapper">
              <Col s={4}>
@@ -33,7 +34,8 @@ const Programacao = () => (
       </Col>
   </Row>  
   <Row>
-      <Col s={12} m={8} l={6} className="s2 l3">
+    <Col l={2}></Col>
+      <Col s={12} m={8} l={8} className="s2 l3">
         <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
            <Row className="valign-wrapper">
              <Col s={4}>
@@ -50,7 +52,8 @@ const Programacao = () => (
       </Col>
   </Row> 
   <Row>
-      <Col s={12} m={8} l={6} className="s2 l3">
+    <Col l={2}></Col>
+      <Col s={12} m={8} l={8} className="s2 l3">
         <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
            <Row className="valign-wrapper">
              <Col s={4}>
@@ -67,9 +70,9 @@ const Programacao = () => (
       </Col>
   </Row> 
   <Row>
-      <Col s={12} m={8} l={6} className="s2 l3">
-     
-      <Card  horizontal> 
+    <Col l={2}></Col>
+        <Col s={12} m={8} l={8} className="s2 l3">
+          <Card  horizontal> 
            <Row className="valign-wrapper">
              <Col s={4}>
                 <img src={img3} alt="" class="circle responsive-img"/> 
@@ -80,7 +83,7 @@ const Programacao = () => (
                 Truques e especialidades mágicas ocultas
               </span>
              </Col> 
-            </Row>    
+           </Row>    
         </Card>  
       </Col>
   </Row> 
