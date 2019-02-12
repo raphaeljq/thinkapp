@@ -6,9 +6,12 @@ import { Row, Col} from 'react-materialize';
 const Institucional = () => (
     <div>
     
-      <Row>
-         <Col><h5 className="header">Institucional</h5></Col>
-      </Row>      
+    <Row>
+    <header className="center-align">
+      <h4>Institucional</h4>
+      <h6>Subtitulo</h6>  
+    </header>  
+  </Row>     
   </div>  
 );
      

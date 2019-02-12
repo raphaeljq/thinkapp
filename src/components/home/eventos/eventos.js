@@ -6,9 +6,12 @@ import { Row, Col} from 'react-materialize';
 const Eventos = () => (
     <div>
     
-      <Row>
-         <Col><h5 className="header">Eventos</h5></Col>
-      </Row>      
+    <Row>
+    <header className="center-align">
+      <h4>Eventos</h4>
+      <h6>Subtitulo</h6>  
+    </header>  
+  </Row>      
   </div>  
 );
      

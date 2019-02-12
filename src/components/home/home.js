@@ -1,22 +1,20 @@
 // Importando o React
 import React from "react";
 // Importando os components necessários da lib react-materialize
-import { Row, Col, Slider,Slide, Collapsible, CollapsibleItem ,Carousel, Card, CardTitle, Footer} from 'react-materialize';
+import { Row, Col, Parallax, Slider,Slide, Collapsible, CollapsibleItem ,Carousel, Card, CardTitle, Footer} from 'react-materialize';
 import Container from "react-materialize/lib/Container";
 import Rodape from '../rodape/rodape'
-
+import fundo from '../../images/fundo-1350.jpeg'
 const Home = () => (
   <div>
-    
   <Row>
-    
-    
-    <Col className="offset-l2" m={12} s={12} l={8}>
-    <Container>
-      <img className="responsive-img" src="https://instagram.fmcp2-1.fna.fbcdn.net/vp/7638c2f0fd753b935999fa46fbdbdc1c/5CD9EF75/t51.2885-15/sh0.08/e35/s750x750/47584129_278485152864940_5166941180400665504_n.jpg?_nc_ht=instagram.fmcp2-1.fna.fbcdn.net"
-/>    </Container>
-</Col>
-    
+    <header className="center-align">
+      <h4>Titulo mais importante</h4>
+      <h6>Design * Marketing Digital * Marca</h6>  
+    </header>  
+  </Row>  
+  <Row>    
+      <Parallax imageSrc={fundo} className="parallax-container responsive-img" />
   </Row>
   <Row>
       <Container>
@@ -105,6 +103,9 @@ const Home = () => (
         </Card>
       </Col>
     
+  </Row>
+  <Row className="marg0">    
+      <Parallax imageSrc={fundo} className="parallax-container responsive-img" />
   </Row>  
  <Rodape/>
  
