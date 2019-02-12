@@ -66,6 +66,11 @@ const Home = () => (
     
   </Row>    
   <Row>
+      <Container>
+        <Col className='l2 m2' s={12} m={8} l={8}><h3 className="header">Relacionamento</h3></Col>
+      </Container>
+  </Row>
+  <Row>
     <Col l={2}></Col>
       <Col s={12} m={8} l={8} className="s2 l3">
         <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
