@@ -84,29 +84,6 @@ const Home = () => (
     
   </Row>    
   <Row>
-      <Container>
-        <Col className='l2 m2' s={12} m={8} l={8}><h3 className="header">Relacionamento</h3></Col>
-      </Container>
-  </Row>
-  <Row>
-      <Col l={2}></Col>
-      <Col s={12} m={8} l={8} className="s2 l3">
-        <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
-           <Row className="valign-wrapper">
-             <Col s={6  }>
-                <img src="https://react-materialize.github.io/img/yuna.jpg" alt="" class="circle responsive-img"/> 
-             </Col>
-             <Col s={8}>
-             <span class="black-text">
-                This is a square image. Add the "circle" class to it to make it appear circular.
-              </span>
-             </Col> 
-            </Row>    
-        </Card>
-      </Col>
-    
-  </Row>    
-  <Row>
     <Col l={2}></Col>
       <Col s={12} m={8} l={8} className="s2 l3">
         <Card horizontal actions={[<a href='#'>This is a link</a>]}> 
