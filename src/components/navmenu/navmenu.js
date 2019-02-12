@@ -25,8 +25,7 @@ const NavMenu = () => (
                 <NavLink to="/Eventos">Eventos</NavLink>
                 <NavLink to="/Equipe">Equipe</NavLink>
                 <SideNavItem divider />
-                <SideNavItem subheader>Subheader</SideNavItem>
-                <SideNavItem waves href='#!third'>Third Link With Waves</SideNavItem>
+                <div> redes sociais</div>
             </SideNav>
             </Col>
 )    
